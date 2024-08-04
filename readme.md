@@ -1,4 +1,4 @@
-Minimal working project that proxies http:// and ws:// requests from localhost:8080 to localhost:8081
+Minimal working project that proxies http:// and ws:// requests from localhost:8081 to localhost:8080
 it injects the following headers:
 ```http
 Cross-Origin-Opener-Policy: same-origin
