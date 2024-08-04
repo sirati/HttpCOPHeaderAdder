@@ -1,0 +1,13 @@
+[package]
+name = "HttpCOPHeaderAdder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper = { version = "0.14", features = ["full", "http1", "client", "server", "http2"] }
+tokio = { version = "1", features = ["full"] }
+tungstenite = "0.16.0"
+tokio-tungstenite = { version = "0.16.1", features = ["default", "connect"]}
+futures-util = { version = "0.3.30"}
+hyper-tungstenite = { version = "0.5"}
+
